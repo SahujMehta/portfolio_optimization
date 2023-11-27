@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::error::Error;
 use std::fs;
 use std::path::Path;
-use csv::Reader;
+use csv::{Reader,ReaderBuilder};
 
 pub fn calculate_covariance(file_path1: &str, file_path2: &str) -> Result<f64, Box<dyn Error>> {
     // Read CSV files
@@ -63,6 +63,8 @@ pub fn create_covariance_lookup(duration: &str) -> Result<HashMap<String, f64>, 
             }
         }
     }
+    println!("Tickers: {:?}", tickers);
+    println!("Number of tickers: {}", tickers.len());
 
     // Calculate covariance for every combination of tickers
     for (i, ticker1) in tickers.iter().enumerate() {
@@ -85,3 +87,108 @@ pub fn create_covariance_lookup(duration: &str) -> Result<HashMap<String, f64>, 
 
     Ok(covariance_lookup)
 }
+
+pub fn save_covariance_lookup(duration: &str) -> Result<(), Box<dyn Error>> {
+    let mut covariance_size = 0;
+    let covariance_lookup = create_covariance_lookup(duration)?;
+
+    println!("Covariance Lookup Table:");
+    for (key, value) in &covariance_lookup {
+        println!("{}: {}", key, value);
+        covariance_size += 1;
+    }
+    println!("Covariance Lookup Table Size: {}", covariance_size);
+
+    let file_name = format!("covariance_lookup_{}.csv", duration);
+    let mut csv_data = String::new();
+
+    for (key, value) in &covariance_lookup {
+        let line = format!("{},{}\n", key, value);
+        csv_data.push_str(&line);
+    }
+
+    let folder_path = "data";
+    if !Path::new(folder_path).exists() {
+        fs::create_dir(folder_path)?;
+    }
+
+    // Write to CSV file
+    let file_path = format!("{}/{}", folder_path, file_name);
+    fs::write(&file_path, csv_data)?;
+
+    println!("Covariance lookup has been saved successfully in file: {}", file_path);
+    Ok(())
+}
+
+
+pub fn load_covariance_lookup(duration: &str) -> Result<(HashMap<String, f64>, Vec<String>), Box<dyn Error>> {
+    let file_name = format!("covariance_lookup_{}.csv", duration);
+    let file_path = format!("data/{}", file_name);
+
+    let mut covariance_lookup: HashMap<String, f64> = HashMap::new();
+    let mut unique_tickers: Vec<String> = Vec::new();
+
+    let file = fs::File::open(&file_path)?;
+    let mut reader = Reader::from_reader(file);
+
+    for result in reader.records() {
+        let record = result?;
+        if record.len() >= 2 {
+            let ticker_pair = record[0].to_string();
+            let value = record[1].parse::<f64>()?;
+
+            // Extract tickers
+            let tickers: Vec<&str> = ticker_pair.split('-').collect();
+            for ticker in &tickers {
+                if !unique_tickers.contains(&ticker.to_string()) {
+                    unique_tickers.push(ticker.to_string());
+                }
+            }
+
+            covariance_lookup.insert(ticker_pair, value);
+        }
+    }
+
+    Ok((covariance_lookup, unique_tickers))
+}
+
+pub fn print_missing_tickers(unique_tickers: &[String], covariance_map: &HashMap<String, f64>) {
+    for ticker in unique_tickers {
+        let found = covariance_map.keys().any(|key| key.contains(ticker));
+        if !found {
+            println!("Ticker '{}' is not in the covariance map keys", ticker);
+        }
+    }
+}
+
+pub fn calculate_returns(unique_tickers: &[String], duration: &str) -> Result<HashMap<String, f64>, Box<dyn Error>> {
+    let mut total_returns_percentage: HashMap<String, f64> = HashMap::new();
+
+    for ticker in unique_tickers {
+        let file_path = format!("data/{}_{}_Quotes.csv", ticker, duration);
+        let file = fs::File::open(file_path)?;
+
+        let mut reader = ReaderBuilder::new().has_headers(false).from_reader(file);
+        let mut prices: Vec<f64> = Vec::new();
+
+        // Collecting prices from the CSV
+        for result in reader.records() {
+            let record = result?;
+            if let Some(price_str) = record.get(0) {
+                let price: f64 = price_str.parse()?;
+                prices.push(price);
+            }
+        }
+
+        if let (Some(initial_price), Some(final_price)) = (prices.first(), prices.last()) {
+            // Calculate total return as a percentage
+            let total_return_percentage = (*final_price - *initial_price) / *initial_price * 100.0;
+            total_returns_percentage.insert(ticker.to_string(), total_return_percentage);
+        } else {
+            eprintln!("Invalid price data for {}", ticker);
+        }
+    }
+
+    Ok(total_returns_percentage)
+}
+

@@ -6,9 +6,10 @@ use std::time::Duration;
 use std::io::prelude::*;
 use tokio;
 use csv;
+use std::collections::HashMap;
+use csv::ReaderBuilder;
 
-pub async fn load_from_list(range: &str ) -> Result<(), Box<dyn std::error::Error>> {
-    let file_path = "S-and-P-500-list.csv"; // Path to your CSV file containing tickers
+pub async fn load_from_list(file_path: &str, range: &str) -> Result<(), Box<dyn std::error::Error>> {
 
     let file = std::fs::File::open(file_path)?;
     let mut rdr = csv::Reader::from_reader(file);
@@ -19,7 +20,7 @@ pub async fn load_from_list(range: &str ) -> Result<(), Box<dyn std::error::Erro
     let mut error_counter = 0;
     for result in rdr.records() {
         let record = result?;
-        if counter % 3 == 0 { // Fetch data for every third item
+        if counter % 1 == 0 { // Fetch data for every third item
             if let Some(ticker) = record.get(0) {
                 println!("Fetching data for {}", ticker);
                 if let Err(err) = fetch_and_store_data(ticker, range).await {
@@ -67,7 +68,7 @@ pub async fn fetch_risk_free_rate(ticker: &str) -> Result<f64, Box<dyn Error>> {
     let provider = yahoo::YahooConnector::new();
     let response = provider.get_quote_range(ticker, interval, "1d").await?;
     let quotes = response.quotes()?;
-    
+
     if let Some(quote) = quotes.first() {
         let close_price = quote.close / 100.0;
         return Ok(close_price);
@@ -76,3 +77,21 @@ pub async fn fetch_risk_free_rate(ticker: &str) -> Result<f64, Box<dyn Error>> {
     Err("No quotes found".into())
 }
 
+pub fn create_sector_lookup(file_path: &str) -> Result<HashMap<String, Vec<String>>, Box<dyn Error>> {
+    let mut sector_lookup: HashMap<String, Vec<String>> = HashMap::new();
+
+    let file = File::open(file_path)?;
+    let mut reader = ReaderBuilder::new().has_headers(true).from_reader(file);
+
+    for result in reader.records() {
+        let record = result?;
+        let ticker = record.get(0).unwrap_or_default().to_string();
+        let sector = record.get(2).unwrap_or_default().to_string();
+
+        // Create or update the sector lookup
+        let tickers_for_sector = sector_lookup.entry(sector).or_insert_with(Vec::new);
+        tickers_for_sector.push(ticker);
+    }
+
+    Ok(sector_lookup)
+}
