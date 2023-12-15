@@ -1,0 +1,10 @@
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolioOptimization/target/debug/deps/yahoo_finance_api-0ed9bf82a50cf7a8.rmeta: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/quotes.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/quote_summary.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/search_result.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/yahoo_error.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/async_impl.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolioOptimization/target/debug/deps/yahoo_finance_api-0ed9bf82a50cf7a8.d: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/quotes.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/quote_summary.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/search_result.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/yahoo_error.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/async_impl.rs
+
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/lib.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/quotes.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/quote_summary.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/search_result.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/yahoo_error.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/yahoo_finance_api-2.1.0/src/async_impl.rs:

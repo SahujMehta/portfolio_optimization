@@ -1,0 +1,1 @@
+/Users/ssmehta/coinbrew/Cbc/Cbc/examples/quad.mps

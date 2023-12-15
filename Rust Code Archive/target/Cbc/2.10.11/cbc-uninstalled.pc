@@ -1,0 +1,10 @@
+prefix=/Users/ssmehta/coinbrew/dist
+libdir=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Cbc/2.10.11/src
+
+Name: CBC
+Description: COIN-OR Branch and Cut
+URL: https://projects.coin-or.org/Cbc
+Version: 2.10.11
+Libs: ${libdir}/libCbcSolver.la ${libdir}/libCbc.la 
+Cflags: -I/Users/ssmehta/coinbrew/Cbc/Cbc/src -I/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Cbc/2.10.11/src
+Requires: clp osi-clp cgl osi coinutils 

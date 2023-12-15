@@ -1,0 +1,10 @@
+prefix=/Users/ssmehta/coinbrew/dist
+libdir=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Clp/1.17.9/src
+
+Name: CLP
+Description: COIN-OR Linear Programming Solver
+URL: https://projects.coin-or.org/Clp
+Version: 1.17.9
+Libs: ${libdir}/libClpSolver.la ${libdir}/libClp.la 
+Cflags: -I/Users/ssmehta/coinbrew/Clp/Clp/src -I/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Clp/1.17.9/src
+Requires: coinutils 

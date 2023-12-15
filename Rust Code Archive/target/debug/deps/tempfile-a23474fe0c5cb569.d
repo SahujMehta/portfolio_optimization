@@ -1,0 +1,12 @@
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolioOptimization/target/debug/deps/tempfile-a23474fe0c5cb569.rmeta: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/dir.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/error.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/mod.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/imp/mod.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/spooled.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/util.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/imp/unix.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolioOptimization/target/debug/deps/tempfile-a23474fe0c5cb569.d: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/dir.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/error.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/mod.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/imp/mod.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/spooled.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/util.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/imp/unix.rs
+
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/lib.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/dir.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/error.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/mod.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/imp/mod.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/spooled.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/util.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.1/src/file/imp/unix.rs:

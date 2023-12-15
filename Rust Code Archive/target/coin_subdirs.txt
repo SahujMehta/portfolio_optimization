@@ -1,0 +1,1 @@
+Data/Sample/1.2.12 Data/miplib3/1.2.8 CoinUtils/2.11.10 Osi/0.108.9 Clp/1.17.9 Cgl/0.60.8 Cbc/2.10.11 

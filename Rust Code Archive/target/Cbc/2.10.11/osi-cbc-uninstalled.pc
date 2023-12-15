@@ -1,0 +1,10 @@
+prefix=/Users/ssmehta/coinbrew/dist
+libdir=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Cbc/2.10.11/src/OsiCbc
+
+Name: OsiCbc
+Description: COIN-OR Open Solver Interface for CBC
+URL: https://projects.coin-or.org/Osi
+Version: 2.10.11
+Libs: ${libdir}/libOsiCbc.la
+Cflags: -I/Users/ssmehta/coinbrew/Cbc/Cbc/src/OsiCbc
+Requires: cbc

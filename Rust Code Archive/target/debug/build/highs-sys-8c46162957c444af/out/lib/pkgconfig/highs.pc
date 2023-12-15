@@ -1,0 +1,12 @@
+prefix=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out
+libdir=${prefix}/lib
+includedir=${prefix}/include/highs
+
+Name: HiGHS
+Description: Linear Optimization Software
+URL: https://github.com/ERGO-Code/HiGHS
+Version: 1.5.3
+Libs: -L${libdir} -lhighs
+#TODO Libs.private (when HiGHS lib is build as static lib)
+Cflags: -I${includedir}
+Requires:

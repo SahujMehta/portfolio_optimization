@@ -1,0 +1,8 @@
+datadir=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Data/miplib3/1.2.8
+
+Name: Miplib3
+Description: MIPLIB3 models
+URL: https://projects.coin-or.org/svn/Data/miplib3
+Version: 1.2.8
+Libs:
+Cflags:

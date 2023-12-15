@@ -1,0 +1,11 @@
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/libselect-6619b4d33f52bb2d.rmeta: /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/document.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/node.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/predicate.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/selection.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/libselect-6619b4d33f52bb2d.rlib: /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/document.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/node.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/predicate.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/selection.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/select-6619b4d33f52bb2d.d: /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/document.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/node.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/predicate.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/selection.rs
+
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/lib.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/document.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/node.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/predicate.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/select-0.6.0/src/selection.rs:

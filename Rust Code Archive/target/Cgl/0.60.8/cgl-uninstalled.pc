@@ -1,0 +1,10 @@
+prefix=/Users/ssmehta/coinbrew/dist
+libdir=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Cgl/0.60.8/src
+
+Name: CGL
+Description: COIN-OR Cut Generation Library
+URL: https://projects.coin-or.org/Cgl
+Version: 0.60.8
+Libs: ${libdir}/libCgl.la 
+Cflags: -I/Users/ssmehta/coinbrew/Cgl/Cgl/src -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglAllDifferent -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglClique -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglDuplicateRow -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglFlowCover -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglGMI -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglGomory -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglKnapsackCover -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglLandP -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglLiftAndProject -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglMixedIntegerRounding -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglMixedIntegerRounding2 -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglOddHole -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglPreProcess -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglProbing -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglRedSplit -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglRedSplit2 -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglResidualCapacity -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglSimpleRounding -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglTwomir -I/Users/ssmehta/coinbrew/Cgl/Cgl/src/CglZeroHalf -I/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Cgl/0.60.8/src
+Requires: osi-clp clp osi coinutils 

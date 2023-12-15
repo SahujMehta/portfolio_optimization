@@ -1,0 +1,8 @@
+datadir=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/Data/Sample/1.2.12
+
+Name: Sample
+Description: Sample models
+URL: https://projects.coin-or.org/svn/Data/Sample
+Version: 1.2.12
+Libs:
+Cflags:

@@ -1,0 +1,11 @@
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/libgif-6f62ec9f535658df.rmeta: /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/traits.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/common.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/mod.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/decoder.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/encoder.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/../README.md
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/gif-6f62ec9f535658df.d: /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/traits.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/common.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/mod.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/decoder.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/encoder.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/../README.md
+
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/lib.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/traits.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/common.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/mod.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/decoder.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/encoder.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/../README.md:

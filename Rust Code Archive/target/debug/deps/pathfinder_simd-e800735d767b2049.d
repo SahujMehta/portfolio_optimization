@@ -1,0 +1,9 @@
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolioOptimization/target/debug/deps/pathfinder_simd-e800735d767b2049.rmeta: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/extras.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/mod.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/swizzle_f32x4.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/swizzle_i32x4.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolioOptimization/target/debug/deps/pathfinder_simd-e800735d767b2049.d: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/extras.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/mod.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/swizzle_f32x4.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/swizzle_i32x4.rs
+
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/lib.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/extras.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/mod.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/swizzle_f32x4.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/pathfinder_simd-0.5.2/src/scalar/swizzle_i32x4.rs:

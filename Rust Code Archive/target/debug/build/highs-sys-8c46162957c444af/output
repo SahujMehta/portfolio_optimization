@@ -1,0 +1,251 @@
+CMAKE_TOOLCHAIN_FILE_aarch64-apple-darwin = None
+CMAKE_TOOLCHAIN_FILE_aarch64_apple_darwin = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_aarch64-apple-darwin = None
+CMAKE_GENERATOR_aarch64_apple_darwin = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_aarch64-apple-darwin = None
+CMAKE_PREFIX_PATH_aarch64_apple_darwin = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_aarch64-apple-darwin = None
+CMAKE_aarch64_apple_darwin = None
+HOST_CMAKE = None
+CMAKE = None
+running: cd "/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/build" && CMAKE_PREFIX_PATH="" "cmake" "/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-sys-1.6.0/HiGHS" "-DCMAKE_OSX_ARCHITECTURES=arm64" "-DFAST_BUILD=ON" "-DBUILD_SHARED_LIBS=OFF" "-DCMAKE_MSVC_RUNTIME_LIBRARY=MultiThreadedDLL" "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=FALSE" "-DCMAKE_INSTALL_PREFIX=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -arch arm64" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -arch arm64" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -arch arm64" "-DCMAKE_ASM_COMPILER=/usr/bin/cc" "-DCMAKE_BUILD_TYPE=Release"
+-- HIGHS version: 1.5.3
+-- Build C++ library: ON
+-- Build Python: OFF
+-- Build Fortran: OFF
+-- Build CSharp: OFF
+-- Found long size: 8
+-- Found long long size: 8
+-- Found int64_t size: 8
+-- Found unsigned long size: 8
+-- Found unsigned long long size: 8
+-- Found uint64_t size: 8
+-- Found int * size: 8
+-- IPO / LTO as requested by user: FALSE
+-- Git hash: n/a
+-- Compilation date: 2023-11-27
+-- FAST_BUILD set to on.
+ Note: The HiGHS team is preparing for our first official release. If you
+       experience any issues please let us know via email or on GitHub.
+-- Build type: Release
+-- Build examples: ON
+-- Build C++: 
+-- Build Python: OFF
+-- Build CSharp: OFF
+-- Build ZLIB: OFF
+-- No CSharp support
+-- Configuring test /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-sys-1.6.0/HiGHS/examples/call_highs_from_cpp.cpp: ...
+-- Configuring test /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-sys-1.6.0/HiGHS/examples/call_highs_from_cpp.cpp: ...DONE
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/build
+running: cd "/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/build" && MAKEFLAGS="-j --jobserver-fds=7,8 --jobserver-auth=7,8" "cmake" "--build" "." "--target" "install" "--config" "Release"
+[ 97%] Built target highs
+[100%] Built target call_highs_from_cpp
+[100%] Built target highs-bin
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/filereaderlp/builder.hpp
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/filereaderlp/model.hpp
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/filereaderlp/reader.hpp
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/io/Filereader.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/io/FilereaderLp.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/io/FilereaderEms.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/io/FilereaderMps.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/io/HMpsFF.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/io/HMPSIO.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/io/HighsIO.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/io/LoadOptions.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HConst.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HStruct.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsAnalysis.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsDebug.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsInfo.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsInfoDebug.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsLp.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsLpSolverObject.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsLpUtils.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsModelUtils.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsOptions.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsRanging.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsRuntimeOptions.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsSolution.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsSolutionDebug.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsSolve.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/lp_data/HighsStatus.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsCliqueTable.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsCutGeneration.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsConflictPool.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsCutPool.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsDebugSol.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsDomainChange.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsDomain.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsDynamicRowMatrix.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsGFkSolve.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsImplications.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsLpAggregator.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsLpRelaxation.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsMipSolverData.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsMipSolver.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsModkSeparator.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsNodeQueue.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsObjectiveFunction.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsPathSeparator.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsPrimalHeuristics.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsPseudocost.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsRedcostFixing.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsSearch.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsSeparation.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsSeparator.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsTableauSeparator.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/mip/HighsTransformedLp.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/model/HighsHessian.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/model/HighsHessianUtils.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/model/HighsModel.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsBinarySemaphore.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsCacheAlign.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsCombinable.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsMutex.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsParallel.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsRaceTimer.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsSchedulerConstants.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsSpinMutex.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsSplitDeque.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsTaskExecutor.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/parallel/HighsTask.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/qpsolver/quass.hpp
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/qpsolver/vector.hpp
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/qpsolver/scaling.hpp
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/qpsolver/perturbation.hpp
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HApp.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HEkk.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HEkkDual.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HEkkDualRHS.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HEkkDualRow.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HEkkPrimal.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HighsSimplexAnalysis.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HSimplex.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HSimplexReport.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HSimplexDebug.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/HSimplexNla.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/SimplexConst.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/SimplexStruct.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/simplex/SimplexTimer.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/presolve/ICrash.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/presolve/ICrashUtil.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/presolve/ICrashX.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/presolve/HighsPostsolveStack.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/presolve/HighsSymmetry.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/presolve/HPresolve.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/presolve/HPresolveAnalysis.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/presolve/PresolveComponent.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/test/DevKkt.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/test/KktCh2.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/FactorTimer.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HFactor.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HFactorConst.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HFactorDebug.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsCDouble.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsComponent.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsDataStack.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsDisjointSets.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsHash.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsHashTree.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsInt.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsIntegers.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsLinearSumBounds.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsMatrixPic.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsMatrixSlice.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsMatrixUtils.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsRandom.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsRbTree.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsSort.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsSparseMatrix.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsSparseVectorSum.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsSplay.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsTimer.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsUtils.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HSet.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HVector.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HVectorBase.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/stringutil.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/Highs.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/interfaces/highs_c_api.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/ipm/IpxWrapper.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/HConfig.h
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/lib/cmake/highs/highs-config.cmake
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/lib/pkgconfig/highs.pc
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs_export.h
+-- Installing: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/lib/libhighs.a
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/lib/cmake/highs/highs-targets.cmake
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/lib/cmake/highs/highs-targets-release.cmake
+-- Up-to-date: /Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/bin/highs
+cargo:root=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out
+cargo:rerun-if-env-changed=TARGET
+cargo:rerun-if-env-changed=BINDGEN_EXTRA_CLANG_ARGS_aarch64-apple-darwin
+cargo:rerun-if-env-changed=BINDGEN_EXTRA_CLANG_ARGS_aarch64_apple_darwin
+cargo:rerun-if-env-changed=BINDGEN_EXTRA_CLANG_ARGS
+cargo:rerun-if-changed=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/interfaces/highs_c_api.h
+cargo:rerun-if-changed=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/util/HighsInt.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/inttypes.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h
+cargo:rerun-if-changed=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h
+cargo:rerun-if-changed=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/include/highs/HConfig.h
+cargo:rustc-link-search=native=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/lib
+cargo:rustc-link-search=native=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/build/highs-sys-8c46162957c444af/out/lib64
+cargo:rustc-link-lib=static=highs
+cargo:rustc-link-lib=dylib=c++
+cargo:rustc-link-lib=dylib=omp
+cargo:rerun-if-changed=HiGHS/src/interfaces/highs_c_api.h

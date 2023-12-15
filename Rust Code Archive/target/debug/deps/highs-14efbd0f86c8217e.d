@@ -1,0 +1,11 @@
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/libhighs-14efbd0f86c8217e.rmeta: /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/lib.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/matrix_col.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/matrix_row.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/options.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/status.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/libhighs-14efbd0f86c8217e.rlib: /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/lib.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/matrix_col.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/matrix_row.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/options.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/status.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/highs-14efbd0f86c8217e.d: /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/lib.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/matrix_col.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/matrix_row.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/options.rs /Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/status.rs
+
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/lib.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/matrix_col.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/matrix_row.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/options.rs:
+/Users/ssmehta/.cargo/registry/src/index.crates.io-6f17d22bba15001f/highs-1.6.1/src/status.rs:

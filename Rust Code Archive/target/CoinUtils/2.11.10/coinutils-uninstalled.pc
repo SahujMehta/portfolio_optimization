@@ -1,0 +1,10 @@
+prefix=/Users/ssmehta/coinbrew/dist
+libdir=/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/CoinUtils/2.11.10/src
+
+Name: CoinUtils
+Description: COIN-OR Utilities
+URL: https://projects.coin-or.org/CoinUtils
+Version: 2.11.10
+Libs: ${libdir}/libCoinUtils.la -lbz2 -lz -framework Accelerate -framework Accelerate -lm 
+Cflags: -I/Users/ssmehta/coinbrew/CoinUtils/CoinUtils/src -I/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/CoinUtils/2.11.10/src
+Requires: 

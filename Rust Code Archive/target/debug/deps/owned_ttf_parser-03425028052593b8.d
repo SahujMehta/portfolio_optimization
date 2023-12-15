@@ -1,0 +1,10 @@
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/owned_ttf_parser-03425028052593b8.rmeta: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/convert.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/owned.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/preparse.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/libowned_ttf_parser-03425028052593b8.rlib: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/convert.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/owned.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/preparse.rs
+
+/Users/ssmehta/Documents/Forecasting/RustAttempt/portfolio_optimization/target/debug/deps/owned_ttf_parser-03425028052593b8.d: /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/lib.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/convert.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/owned.rs /Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/preparse.rs
+
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/lib.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/convert.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/owned.rs:
+/Users/ssmehta/.cargo/registry/src/github.com-1ecc6299db9ec823/owned_ttf_parser-0.20.0/src/preparse.rs:
