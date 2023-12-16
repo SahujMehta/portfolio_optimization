@@ -1,0 +1,31 @@
+Ticker,Security Name,Sector
+MMM,3M,Industrials
+AXP,American Express,Financials
+AMGN,Amgen,Health Care
+AAPL,Apple Inc.,Information Technology
+BA,Boeing,Industrials
+CAT,Caterpillar Inc.,Industrials
+CVX,Chevron Corporation,Energy
+CSCO,Cisco,Information Technology
+KO,Coca-Cola Company (The),Consumer Staples
+DOW,Dow Inc.,Materials
+GS,Goldman Sachs,Financials
+HD,Home Depot (The),Consumer Discretionary
+HON,Honeywell,Industrials
+INTC,Intel,Information Technology
+IBM,IBM,Information Technology
+JNJ,Johnson & Johnson,Health Care
+JPM,JPMorgan Chase,Financials
+MCD,McDonald's,Consumer Discretionary
+MRK,Merck & Co.,Health Care
+MSFT,Microsoft,Information Technology
+NKE,"Nike, Inc.",Consumer Discretionary
+PG,Procter & Gamble,Consumer Staples
+CRM,Salesforce,Information Technology
+TRV,Travelers Companies (The),Financials
+UNH,UnitedHealth Group,Health Care
+VZ,Verizon,Communication Services
+V,Visa Inc.,Financials
+WBA,Walgreens Boots Alliance,Consumer Staples
+WMT,Walmart,Consumer Staples
+DIS,Disney,Communication Services
